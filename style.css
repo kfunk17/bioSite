@@ -6,6 +6,26 @@ body{
     max-lines: 30px;
     font-family: 'Mada', arial, sans-serif;
 }
+
+p{
+    color:#222601;
+}
+
+.about{
+    padding-left:570px;
+    padding-top:70px;
+    padding-bottom: 50px;
+    color:#678C30;
+    
+}
+#header h1{
+    font-family: font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    padding-left: 510px;
+    
+}
+
+
  ul{
     margin: 0px;
     padding: 5px 10px 5px 300px;
@@ -19,22 +39,48 @@ li {
 li a {
     color: white;
     text-decoration: none;
-    margin-top: 10px;
+    
     
 }
 
 #nav {
     background-color: #214001;
-    height: 30px;
-    
+    height: 35px;
+    border-bottom:3px solid black;
+    border-top:3px solid black;
     
 }
+
+figure {
+    float: left;
+    
+  }
+
+.feature{
+ width: 1200px;
+ padding-top:50px;
+ 
+}
+.img{
+    float: left;
+    margin-right: 10px;
+    
+}
+
+
+ figcaption{
+  clear:left;
+}
+
+
  #footer {
     background-color: #214001;
-    
+    margin-top:300px;
     text-align: center;
     height: 30px;
-    margin: 0px;
+    border-bottom:3px solid black;
+    border-top:3px solid black;
+    
    
 
 }
@@ -43,6 +89,7 @@ li a {
     color: white;
     margin: 0px;
     padding: 5px 0px 5px 30px;
+    
 }
 
 
