@@ -1,33 +1,66 @@
+/* CSS for HTML pages. */
+/* Ran code on https://autoprefixer.github.io/ to see if I needed vendor prefixes, but it didn't show that I did. */
+
+
 body{
-    background: white;
+    
     font-size: 1em;
     line-height: 1.6em;
     max-lines: 30px;
     font-family: 'Mada', arial, sans-serif;
+    margin: 0px auto;
+    width: 1000px;
+    background-color:#678C30;
+
 }
 
 p{
     color:#222601;
 }
 
-.about{
-    padding-left:570px;
-    padding-top:70px;
+main{
+     
+    padding-top:160px;
     padding-bottom: 50px;
-    color:#678C30;
+    background:white;
+    height: 700px;
+   
+    
     
 }
-#header h1{
-    font-family: font-family: 'Staatliches', cursive;
+
+article p{
+    padding-right:30px;
+    text-align:justify;
+    
+}
+
+figure{
+    padding-top:176px;
+    padding-bottom: 50px;
+    float:left;
+}
+header h1{
+    font-family:'Staatliches', helvetica, sans-serif;
     font-size: 50px;
     padding-left: 510px;
+
     
+}
+
+header{
+    background: white;
+    padding-top:px;
+    background-image: url(images/HEADER.png);
+    background-position: 50% 50%;
+   background-repeat: repeat-x;
+   height: 207px;
 }
 
 
  ul{
     margin: 0px;
-    padding: 5px 10px 5px 300px;
+    padding: 7px 5px 7px 230px;
 }
 li {
     display: inline;
@@ -42,39 +75,34 @@ li a {
     
 }
 
-#nav {
+nav {
     background-color: #214001;
     height: 35px;
     border-bottom:3px solid black;
     border-top:3px solid black;
     
-}
-
-figure {
-    float: left;
+   
     
-  }
-
-.feature{
- width: 1200px;
- padding-top:50px;
- 
+    
 }
+
+
+
 .img{
     float: left;
-    margin-right: 10px;
+    margin-left:-15px ;
+    
     
 }
 
 
  figcaption{
-  clear:left;
+  margin-left:2px;
+  font-family:'Mada', helvetica, sans-serif;
 }
 
-
- #footer {
+footer{
     background-color: #214001;
-    margin-top:300px;
     text-align: center;
     height: 30px;
     border-bottom:3px solid black;
@@ -84,15 +112,12 @@ figure {
 
 }
 
-#footer p {
+footer p {
     color: white;
     margin: 0px;
     padding: 5px 0px 5px 30px;
     
 }
-
-
-
 
 
 
