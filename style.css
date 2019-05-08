@@ -51,7 +51,7 @@ header h1{
 header{
     background: white;
     padding-top:px;
-    background-image: url(HEADER.png);
+    background-image: url(Images/HEADER.png);
     background-position: 50% 50%;
    background-repeat: repeat-x;
    height: 207px;
