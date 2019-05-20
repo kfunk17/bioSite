@@ -1,6 +1,9 @@
 /* CSS for HTML page. */
 
 
+
+
+
 body{
     
     font-size: 1em;
@@ -9,9 +12,33 @@ body{
     font-family: 'Mada', arial, sans-serif;
     margin: 0px auto;
     width: 1000px;
-    background-color:#678C30;
+    background-color: #d6dbd4;
+    
 
 }
+
+main{
+     
+    padding-top:160px;
+    padding-bottom: 50px;
+    background:white;
+    height: 2500px;
+   
+    
+    
+}
+
+header{
+    background: white;
+    height: 207px;
+}
+
+
+header img{
+    width: 1000px;
+    height: 207px;
+}
+
 
 
 h1{
@@ -24,24 +51,35 @@ h1{
 
 
 article.first{
-    padding-top:30px;
+    margin-top:-80px;
+  padding-top:15px;
     padding-bottom:50px;
+    height:540px;
+
+
 }
 
 article.second{
-   
-    padding-top: 170px;
-    height: 400px;
+    
+    padding-top: 100px;
+    height: 500px;
+
+    
 }
 
 article.third{
-    padding-top: 160px;
-    height: 400px;
+
+   
+    padding-top: 100px;
+    height: 500px;
+    
 }
 
 article.four{
+    
     padding-top: 160px;
-    height: 400px;
+    height: 500px;
+    margin-bottom: 100px;
 }
 
 .fig{
@@ -52,12 +90,29 @@ article.four{
     
 }
 
+a:link {
+    color: blue
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 
 
 
 
 p{
-    color:#222601;
+    
     overflow: hidden;
     padding-right: 25px;
     text-align: justify;
@@ -65,30 +120,14 @@ p{
    
 }
 
-main{
-     
-    padding-top:160px;
-    padding-bottom: 50px;
-    background:white;
-    height: 2300px;
-   
-    
-    
-}
 
 
 
 
 
 
-header{
-    background: white;
-    padding-top:px;
-    background-image: url(Images/HEADER.png);
-    background-position: 50% 50%;
-   background-repeat: repeat-x;
-   height: 207px;
-}
+
+
 
 
  ul{
@@ -108,11 +147,21 @@ li a {
     
 }
 
+li a:hover {
+    color: gray;
+    text-decoration: none;
+    
+    
+}
+
 nav {
     background-color: #214001;
     height: 35px;
     border-bottom:3px solid black;
     border-top:3px solid black;
+    
+   
+
     
    
     
@@ -148,10 +197,6 @@ footer p {
    margin-top:5px;
     
 }
-
-
-
-
 
 
 
